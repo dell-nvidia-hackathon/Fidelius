@@ -9,7 +9,7 @@ import '@react-pdf-viewer/core/lib/styles/index.css'
 import '@react-pdf-viewer/default-layout/lib/styles/index.css'
 
 // You can change the path to your PDF file here
-const pdfFilePath = '/Sreehari.pdf' // Ensure this file is located in the public folder
+const pdfFilePath = 'output.pdf' // Ensure this file is located in the public folder
 
 const PdfViewer = () => {
   const defaultLayoutPluginInstance = defaultLayoutPlugin()
