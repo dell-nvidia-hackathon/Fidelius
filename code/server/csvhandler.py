@@ -4,7 +4,7 @@ import pandas as pd
 import json
 import os
 
-csv_output_file = '/project/data/output.csv'
+csv_output_file = os.path.dirname(os.path.abspath(__file__))+"\\updated_output.csv"
 
 def predictheaders(file_path):
   rows=""
@@ -15,8 +15,8 @@ def predictheaders(file_path):
 
 def maskobfcsv(json_data):
     filename = json_data['fileName']
-    df = pd.read_csv("/project/data/Ecommerce-Customers.csv")
-    csv_output_file = '/project/data/output.csv'
+    df = pd.read_csv(os.path.dirname(os.path.abspath(__file__))+"\\"+fileName)
+    
 
     updated_df = df.copy()
 
