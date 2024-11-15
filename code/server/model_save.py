@@ -8,7 +8,6 @@ from huggingface_hub import login
 
 # Get the Hugging Face API token from the environment variable
 api_token = os.getenv("HUGGINFACE_API_KEY")
-print(api_token)
 # Authenticate with Hugging Face
 login(token=api_token)
 
