@@ -15,20 +15,35 @@ Fidelius is a localized data masking tool utilizing Generative AI. It allows use
 
 2. **Set Up the Application in Workbench:**
 
-    - **Name:** Fidelius
-    - **Class:** Web Application
-    - **Icon URL:** Leave blank
-    - **Start Command:** `python run.py`
-    - **Port:** 5000 (ensure it's not used by another application)
-    - **Health Check Command:** `curl -f "http://localhost:5000"`
-    - **Stop Command:** `pkill -f "python run.py"`
-    - **Auto Launch:** Selected
-    - **URL:** `http://localhost:5000`
-    - **URL Command:** Leave blank
-    - **User Message:** Leave blank
+   - **Name:** Fidelius
+   - **Class:** Web Application
+   - **Icon URL:** Leave blank
+
+   - **Start Command:**
+     ```bash
+     python run.py
+     ```
+
+   - **Port:** 5000 (ensure it's not used by another application)
+
+   - **Health Check Command:**
+     ```bash
+     curl -f "http://localhost:5000"
+     ```
+
+   - **Stop Command:**
+     ```bash
+     pkill -f "python run.py"
+     ```
+
+   - **Auto Launch:** Selected
+   - **URL:** `http://localhost:5000`
+   - **URL Command:** Leave blank
+   - **User Message:** Leave blank
 
 3. **Run the Application:**
-   Once you have configured the application in the NVIDIA AI Workbench, click start in your Workbench environment to run Fidelius.
+
+   Once you have configured the application in the NVIDIA AI Workbench, click start in your Workbench environment to run Fidelius. If running as an app doesn't work, open in VS Code and navigate to `/code` and run `run.py` with `python3 run.py` or navigate to `code/client` and start the client with `npm run dev`. Navigate to `code/server` and start the server with `python3 server.py`.
 
 4. **Upload your files:** The tool currently supports CSV/Excel and PDF/Text formats.
 
