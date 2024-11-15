@@ -10,7 +10,7 @@ Fidelius is a localized data masking tool utilizing Generative AI. It allows use
 
 1. **Clone this repository:**
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/Sreehari78/Fidelius.git
    ```
 
 2. **Set Up the Application in Workbench:**
