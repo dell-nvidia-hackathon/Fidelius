@@ -15,7 +15,7 @@ def predictheaders(file_path):
 
 def maskobfcsv(json_data):
     filename = json_data['fileName']
-    df = pd.read_csv(os.path.dirname(os.path.abspath(__file__))+"\\"+fileName)
+    df = pd.read_csv(os.path.dirname(os.path.abspath(__file__))+"\\"+filename)
     
 
     updated_df = df.copy()
