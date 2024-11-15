@@ -6,6 +6,10 @@ This project is a data masking and obfuscation tool designed to enhance privacy 
 
 Fidelius is a localized data masking tool utilizing Generative AI. It allows users to upload files and select between two methods of data protection: redaction or obfuscation. The tool is currently compatible with two types of files: CSV/Excel and PDF/Text documents. It is designed to protect sensitive information while maintaining the integrity and usability of the data.  
 
+## Demo Video
+
+[![Fidelius Demo](https://img.youtube.com/vi/Di5x8ULMrbg/0.jpg)](https://www.youtube.com/watch?v=Di5x8ULMrbg)
+
 ## How To Use in NVIDIA AI Workbench
 
 1. **Clone this repository:**
